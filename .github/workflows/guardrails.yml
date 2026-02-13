@@ -1,0 +1,15 @@
+name: Guardrails
+on:
+  workflow_dispatch:
+  merge_group:
+  pull_request:
+    types:
+      - edited
+      - synchronize
+      - opened
+      - reopened
+
+jobs:
+  run_guardrails:
+    uses: wealthsimple/github-workflows/.github/workflows/guardrails.yml@v1
+    secrets: inherit

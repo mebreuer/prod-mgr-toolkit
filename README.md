@@ -1,4 +1,6 @@
-# prod-mgr-toolkit
+# ws-claude-prod-mgr-plugin
+
+[![Link to ws-claude-prod-mgr-plugin in Backstage](https://img.shields.io/static/v1?label=Backstage&message=ws-claude-prod-mgr-plugin&color=blue)](https://backstage.iad.w10e.com/catalog/default/component/ws-claude-prod-mgr-plugin)
 
 Product management skills for Claude Code. Five interactive workflows covering the full PM lifecycle: daily standup, PRD drafting, PRD enhancement, feature implementation, and task execution.
 
@@ -14,15 +16,15 @@ Product management skills for Claude Code. Five interactive workflows covering t
 
 ## Installation
 
-### From GitHub
-
-```bash
-claude plugin install github.com/mebreuer/prod-mgr-toolkit
-```
-
 ### From Wealthsimple Marketplace
 
 The plugin is available in the WS Claude Marketplace. It will be installed automatically if you have the marketplace configured.
+
+### From GitHub
+
+```bash
+claude plugin install github.com/wealthsimple/ws-claude-prod-mgr-plugin
+```
 
 ## Memory
 
@@ -57,7 +59,7 @@ These skills integrate with various MCP servers. All are optional — skills gra
 ## Structure
 
 ```
-prod-mgr-toolkit/
+ws-claude-prod-mgr-plugin/
 ├── .claude-plugin/
 │   └── plugin.json
 ├── skills/
