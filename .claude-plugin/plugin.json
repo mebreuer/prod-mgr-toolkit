@@ -1,0 +1,12 @@
+{
+  "name": "prod-mgr-toolkit",
+  "description": "Product management skills for Claude Code: PRD drafting, enhancement, one-shot implementation, daily workflows, and task management",
+  "version": "1.0.0",
+  "author": {
+    "name": "Matt Breuer"
+  },
+  "homepage": "https://github.com/mebreuer/prod-mgr-toolkit",
+  "repository": "https://github.com/mebreuer/prod-mgr-toolkit",
+  "license": "MIT",
+  "keywords": ["prd", "product-management", "skills", "workflows"]
+}
