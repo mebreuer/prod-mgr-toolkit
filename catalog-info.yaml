@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 'ws-claude-prod-mgr-plugin'
+  description: '  Product management skills for Claude Code: PRD drafting, enhancement, one-shot implementation, daily workflows, and task management             '
+spec:
+  type: 'other'
+  lifecycle: experimental
