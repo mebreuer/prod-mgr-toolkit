@@ -116,6 +116,7 @@ Using both the Granola subagent (Subagent 1) and Linear subagent (Subagent 4) re
 - For each confirmed item, use `linear:create_issue` with:
   - Title from the action item
   - Team: "Product Managers"
+  - Assignee: "me"
   - Status: Todo (or as user specifies)
   - Description referencing the source meeting
 - Confirm created tasks with their identifiers (e.g., "Created PM-71, PM-72")
